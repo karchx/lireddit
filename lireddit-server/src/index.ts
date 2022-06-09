@@ -10,7 +10,7 @@ import { PostResolver } from "./resolvers/post";
 import { UserResolver } from "./resolvers/user";
 import session from "express-session";
 import connectRedis from "connect-redis";
-import Redis from 'ioredis';
+import Redis from "ioredis";
 import { MyContext } from "./types";
 
 const main = async () => {
@@ -20,22 +20,22 @@ const main = async () => {
   const app = express();
 
   const RedisStore = connectRedis(session);
-  const redisClient = new Redis();
-  redisClient.connect().catch(console.error);
-
+  const redisClient = new Redis("127.0.0.1:6379");
+  app.set("trust proxy", 1);
   app.use(
     session({
       name: "qid",
-      store: new RedisStore({ 
+      store: new RedisStore({
         client: redisClient,
         disableTouch: true,
       }),
       cookie: {
         maxAge: 1000 * 60 * 60 * 24 * 365 * 10, // 10 years
         httpOnly: true,
-        sameSite: 'lax', // csrf
-        secure: __prod__ //cookie only works in https
+        sameSite: "none", // csrf
+        secure: !__prod__, //cookie only works in https
       },
+      saveUninitialized: false,
       secret: "keyboar",
       resave: false,
     })
@@ -51,7 +51,10 @@ const main = async () => {
 
   await apolloServer.start();
 
-  apolloServer.applyMiddleware({ app });
+  apolloServer.applyMiddleware({
+    app,
+    cors: { origin: "https://studio.apollographql.com", credentials: true },
+  });
 
   app.listen(4000, () => {
     console.log("Server started on http://localhost:4000");

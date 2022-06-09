@@ -1,0 +1,105 @@
+Info 0    [22:41:31.133] Starting TS Server
+Info 1    [22:41:31.133] Version: 4.4.4
+Info 2    [22:41:31.133] Arguments: /home/stivarch/.nvm/versions/node/v16.3.0/bin/node /home/stivarch/.nvm/versions/node/v16.3.0/lib/node_modules/typescript/lib/tsserver.js --logFile /home/stivarch/Escritorio/gnu/projects/lireddit/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/b6ad0547140681d2424b1e66596edef8/tscancellation*
+Info 3    [22:41:31.134] Platform: linux NodeVersion: 16 CaseSensitive: true
+Info 4    [22:41:31.134] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [22:41:31.156] Format host information updated
+Info 6    [22:41:31.159] Search path: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src
+Info 7    [22:41:31.161] For info: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/constants.ts :: Config file name: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/tsconfig.json
+Info 8    [22:41:31.161] Creating configuration project /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/tsconfig.json
+Info 9    [22:41:31.187] Config: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/tsconfig.json : {
+ "rootNames": [
+  "/home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/constants.ts",
+  "/home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/index.ts",
+  "/home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/mikro-orm.config.ts",
+  "/home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/types.ts",
+  "/home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/entities/Post.ts",
+  "/home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/entities/User.ts",
+  "/home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/migrations/Migration20210726184819.ts",
+  "/home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/migrations/Migration20210730002246.ts",
+  "/home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/resolvers/hello.ts",
+  "/home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/resolvers/post.ts",
+  "/home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/resolvers/user.ts"
+ ],
+ "options": {
+  "target": 2,
+  "module": 1,
+  "lib": [
+   "lib.es2020.d.ts"
+  ],
+  "skipLibCheck": true,
+  "sourceMap": true,
+  "outDir": "/home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/dist",
+  "moduleResolution": 2,
+  "removeComments": true,
+  "noImplicitAny": true,
+  "strictNullChecks": true,
+  "strictFunctionTypes": true,
+  "noImplicitThis": true,
+  "noUnusedLocals": true,
+  "noUnusedParameters": true,
+  "noImplicitReturns": true,
+  "noFallthroughCasesInSwitch": true,
+  "allowSyntheticDefaultImports": true,
+  "esModuleInterop": true,
+  "emitDecoratorMetadata": true,
+  "experimentalDecorators": true,
+  "resolveJsonModule": true,
+  "baseUrl": "/home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server",
+  "configFilePath": "/home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/tsconfig.json"
+ }
+}
+Info 10   [22:41:31.264] Starting updateGraphWorker: Project: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/tsconfig.json
+Info 11   [22:41:35.671] Finishing updateGraphWorker: Project: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/tsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 4406.390477001667ms
+Info 12   [22:41:35.671] Project '/home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/tsconfig.json' (Configured)
+Info 13   [22:41:35.671] 	Files (662)
+
+Info 14   [22:41:35.672] -----------------------------------------------
+Info 15   [22:41:35.699] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 16   [22:41:36.282] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 583.4151499979198ms
+Info 17   [22:41:36.282] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 18   [22:41:36.283] 	Files (642)
+
+Info 19   [22:41:36.283] -----------------------------------------------
+Info 20   [22:42:08.375] FileWatcher:: Triggered with /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/index.ts 1:: WatchInfo: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/index.ts 500 undefined WatchType: Closed Script info
+Info 21   [22:42:08.376] Elapsed:: 0.8808929994702339ms FileWatcher:: Triggered with /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/index.ts 1:: WatchInfo: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/index.ts 500 undefined WatchType: Closed Script info
+Info 22   [22:42:08.626] Starting updateGraphWorker: Project: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/tsconfig.json
+Info 23   [22:42:08.709] Finishing updateGraphWorker: Project: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/tsconfig.json Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 82.97896499931812ms
+Info 24   [22:42:08.710] Different program with same set of files
+Info 25   [22:42:10.876] Before ensureProjectForOpenFiles:
+Info 26   [22:42:10.876] After ensureProjectForOpenFiles:
+Info 27   [22:42:10.876] got projects updated in background, updating diagnostics for /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/constants.ts
+Info 28   [22:43:51.156] DirectoryWatcher:: Triggered with /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/#index.ts# 0:: WatchInfo: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src 1 undefined Config: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/tsconfig.json WatchType: Wild card directory
+Info 29   [22:43:51.158] Project: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/tsconfig.json Detected file add/remove of non supported extension: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/#index.ts#
+Info 30   [22:43:51.158] Elapsed:: 1.202684000134468ms DirectoryWatcher:: Triggered with /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/#index.ts# 0:: WatchInfo: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src 1 undefined Config: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/tsconfig.json WatchType: Wild card directory
+Info 31   [22:43:51.158] DirectoryWatcher:: Triggered with /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/#index.ts# 0:: WatchInfo: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src 1 undefined Project: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/tsconfig.json WatchType: Failed Lookup Locations
+Info 32   [22:43:51.158] Elapsed:: 0.4172779992222786ms DirectoryWatcher:: Triggered with /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/#index.ts# 0:: WatchInfo: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src 1 undefined Project: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/tsconfig.json WatchType: Failed Lookup Locations
+Info 33   [22:44:39.827] DirectoryWatcher:: Triggered with /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/#index.ts# 0:: WatchInfo: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src 1 undefined Config: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/tsconfig.json WatchType: Wild card directory
+Info 34   [22:44:39.827] Project: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/tsconfig.json Detected file add/remove of non supported extension: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/#index.ts#
+Info 35   [22:44:39.827] Elapsed:: 0.3541309982538223ms DirectoryWatcher:: Triggered with /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/#index.ts# 0:: WatchInfo: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src 1 undefined Config: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/tsconfig.json WatchType: Wild card directory
+Info 36   [22:44:39.827] DirectoryWatcher:: Triggered with /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/#index.ts# 0:: WatchInfo: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src 1 undefined Project: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/tsconfig.json WatchType: Failed Lookup Locations
+Info 37   [22:44:39.827] Elapsed:: 0.07199500128626823ms DirectoryWatcher:: Triggered with /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/#index.ts# 0:: WatchInfo: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src 1 undefined Project: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/tsconfig.json WatchType: Failed Lookup Locations
+Info 38   [22:44:40.429] FileWatcher:: Triggered with /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/index.ts 1:: WatchInfo: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/index.ts 500 undefined WatchType: Closed Script info
+Info 39   [22:44:40.430] Elapsed:: 0.14375800266861916ms FileWatcher:: Triggered with /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/index.ts 1:: WatchInfo: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/index.ts 500 undefined WatchType: Closed Script info
+Info 40   [22:44:40.680] Starting updateGraphWorker: Project: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/tsconfig.json
+Info 41   [22:44:40.731] Finishing updateGraphWorker: Project: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/tsconfig.json Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 50.673690002411604ms
+Info 42   [22:44:40.731] Different program with same set of files
+Info 43   [22:44:42.929] Before ensureProjectForOpenFiles:
+Info 44   [22:44:42.930] After ensureProjectForOpenFiles:
+Info 45   [22:44:42.930] got projects updated in background, updating diagnostics for /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/constants.ts
+Info 46   [22:45:32.456] FileWatcher:: Triggered with /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/index.ts 1:: WatchInfo: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/index.ts 500 undefined WatchType: Closed Script info
+Info 47   [22:45:32.457] Elapsed:: 0.1673620007932186ms FileWatcher:: Triggered with /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/index.ts 1:: WatchInfo: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/index.ts 500 undefined WatchType: Closed Script info
+Info 48   [22:45:32.707] Starting updateGraphWorker: Project: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/tsconfig.json
+Info 49   [22:45:32.746] Finishing updateGraphWorker: Project: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/tsconfig.json Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 38.577229999005795ms
+Info 50   [22:45:32.746] Different program with same set of files
+Info 51   [22:45:34.957] Before ensureProjectForOpenFiles:
+Info 52   [22:45:34.957] After ensureProjectForOpenFiles:
+Info 53   [22:45:34.957] got projects updated in background, updating diagnostics for /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/constants.ts
+Info 54   [22:47:16.510] FileWatcher:: Triggered with /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/index.ts 1:: WatchInfo: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/index.ts 500 undefined WatchType: Closed Script info
+Info 55   [22:47:16.511] Elapsed:: 0.19851000234484673ms FileWatcher:: Triggered with /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/index.ts 1:: WatchInfo: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/index.ts 500 undefined WatchType: Closed Script info
+Info 56   [22:47:16.761] Starting updateGraphWorker: Project: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/tsconfig.json
+Info 57   [22:47:16.813] Finishing updateGraphWorker: Project: /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/tsconfig.json Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 51.1704589985311ms
+Info 58   [22:47:16.813] Different program with same set of files
+Info 59   [22:47:19.011] Before ensureProjectForOpenFiles:
+Info 60   [22:47:19.011] After ensureProjectForOpenFiles:
+Info 61   [22:47:19.012] got projects updated in background, updating diagnostics for /home/stivarch/Escritorio/gnu/projects/lireddit/lireddit-server/src/constants.ts
