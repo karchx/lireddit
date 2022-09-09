@@ -142,6 +142,7 @@ export class UserResolver {
     }
 
     req.session.userId = user.id;
+    console.log("REQ: " + req.headers.cookie);
     return {
       user,
     };

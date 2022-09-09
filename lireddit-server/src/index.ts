@@ -35,12 +35,12 @@ const main = async () => {
         client: redisClient,
         disableTouch: true,
       }),
-      cookie: {
+      /*cookie: {
         maxAge: 1000 * 60 * 60 * 24 * 365 * 10, // 10 years
         httpOnly: true,
         sameSite: "none", // csrf
         secure: !__prod__, //cookie only works in https
-      },
+      },*/
       saveUninitialized: false,
       secret: "keyboar",
       resave: false,

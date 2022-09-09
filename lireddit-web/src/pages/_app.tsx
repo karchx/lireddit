@@ -5,10 +5,10 @@ import theme from "../theme";
 import { AppProps } from "next/app";
 
 const client = createClient({
-  url: "http://localhost:4000/graphql",
+  url: "http://localhost:4000/graphql/",
   fetchOptions: {
-    credentials: "include",
-  },
+    credentials: "include"
+  }
 });
 
 function MyApp({ Component, pageProps }: AppProps) {
