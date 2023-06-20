@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@0no-co/graphql.web@^1.0.1":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@0no-co/graphql.web/-/graphql.web-1.0.4.tgz#9606eb651955499525d068ce0ad8bea596286ce2"
+  integrity sha512-W3ezhHGfO0MS1PtGloaTpg0PbaT8aZSmmaerL7idtU5F7oCI+uu25k+MsMS31BVFlp4aMkHSrNRxiD72IlK8TA==
+
 "@ampproject/remapping@^2.1.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@ampproject/remapping/-/remapping-2.2.0.tgz#56c133824780de3174aed5ab6834f3026790154d"
@@ -2025,6 +2030,14 @@
   dependencies:
     "@types/node" "*"
 
+"@urql/core@>=4.0.0":
+  version "4.0.10"
+  resolved "https://registry.yarnpkg.com/@urql/core/-/core-4.0.10.tgz#b227f161910d6f22d27bb308098e1181b949c302"
+  integrity sha512-Vs3nOSAnYftqOCg034Ostp/uSqWlQg5ryLIzcOrm8+O43s4M+Ew4GQAuemIH7ZDB8dek6h61zzWI3ujd8FH3NA==
+  dependencies:
+    "@0no-co/graphql.web" "^1.0.1"
+    wonka "^6.3.2"
+
 "@urql/core@^3.0.3":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@urql/core/-/core-3.0.3.tgz#da054babb4d4aed26dc4503806b310ba6dd6eea1"
@@ -2032,6 +2045,15 @@
   dependencies:
     "@graphql-typed-document-node/core" "^3.1.1"
     wonka "^6.0.0"
+
+"@urql/exchange-graphcache@^6.1.4":
+  version "6.1.4"
+  resolved "https://registry.yarnpkg.com/@urql/exchange-graphcache/-/exchange-graphcache-6.1.4.tgz#5d69c838f7a1d313018f63abb8ead79f8c1ea133"
+  integrity sha512-GQ1scnYjMVoUHrPoYOlw3ZfU2nXuLTEhWhKzPquhZz87GliVpZPuFMf+o64cI1dKy9xDlbU7aQnKiSaGeT248w==
+  dependencies:
+    "@0no-co/graphql.web" "^1.0.1"
+    "@urql/core" ">=4.0.0"
+    wonka "^6.3.2"
 
 "@whatwg-node/fetch@^0.3.0":
   version "0.3.2"
@@ -4461,6 +4483,11 @@ wonka@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/wonka/-/wonka-6.0.0.tgz#38cd39a517fc3ff721ea3bf353642b353bf48860"
   integrity sha512-TEiIOqkhQXbcmL1RrjxPCzTX15V5FSyJvZRSiTxvgTgrJMaOVKmzGTdRVh349CfaNo9dsIhWDyg1/GNq4NWrEg==
+
+wonka@^6.3.2:
+  version "6.3.2"
+  resolved "https://registry.yarnpkg.com/wonka/-/wonka-6.3.2.tgz#6f32992b332251d7b696b038990f4dc284b3b33d"
+  integrity sha512-2xXbQ1LnwNS7egVm1HPhW2FyKrekolzhpM3mCwXdQr55gO+tAiY76rhb32OL9kKsW8taj++iP7C6hxlVzbnvrw==
 
 wrap-ansi@^6.2.0:
   version "6.2.0"
